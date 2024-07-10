@@ -9,4 +9,8 @@ CREATE TABLE `table` (
   content text,
   age int(2) default 0,
   PRIMARY KEY (uid)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+
+
+//  ENGINE=InnoDB DEFAULT CHARSET=utf8;
